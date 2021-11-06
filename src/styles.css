@@ -11224,3 +11224,12 @@ th {
 .card-title, .card-header {
   color: inherit;
 }
+
+.marginForm{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-block{
+  width: 100%;
+}
