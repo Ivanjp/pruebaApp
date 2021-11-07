@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
+import { HomeComponent } from '../app/modules/home/component/home/home.component';
 import { ExchangeRateComponent } from '../app/modules/exchange-rate/component/exchange-rate/exchange-rate.component';
 import { RegionComponent } from './modules/customer/component/region/region.component';
 
 const routes: Routes = [
   {path: 'exchange-rate', component: ExchangeRateComponent},
-  {path: 'region', component: RegionComponent}
+  {path: 'region', component: RegionComponent},
+  {path: '', component: HomeComponent }
 ];
 
 @NgModule({

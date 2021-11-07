@@ -7,8 +7,11 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { LayoutModule } from '../app/modules/layout/layout.module';
+
+import { HomeModule } from '../app/modules/home/home.module';
 import { ExchangeRateModule } from './modules/exchange-rate/exchange-rate.module'
 import { CustomerModule } from '../app/modules/customer/customer.module'
+
 
 
 @NgModule({
@@ -21,7 +24,8 @@ import { CustomerModule } from '../app/modules/customer/customer.module'
     HttpClientModule,
     LayoutModule,
     ExchangeRateModule
-    CustomerModule
+    CustomerModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
